@@ -15,7 +15,7 @@ def page():
     """提供 Playwright 页面对象，每个用例独立"""
     log.info("启动浏览器...")
     with sync_playwright() as p:
-        browser = p.chromium.launch(channel="chrome", headless=False)
+        browser = p.chromium.launch(headless=True)
         context = browser.new_context()
         page = context.new_page()
         log.info("浏览器已启动，页面已创建")
