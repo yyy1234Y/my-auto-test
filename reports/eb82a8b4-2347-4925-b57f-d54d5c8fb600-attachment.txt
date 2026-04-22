@@ -1,0 +1,17 @@
+[32mINFO    [0m ecommerce_test:logger.py:24 执行测试前清理...
+[32mINFO    [0m ecommerce_test:logger.py:24 ========== 开始执行测试用例: test_invalid_login ==========
+[32mINFO    [0m ecommerce_test:logger.py:24 启动浏览器...
+[32mINFO    [0m ecommerce_test:logger.py:24 浏览器已启动，页面已创建
+[32mINFO    [0m ecommerce_test:logger.py:24 导航至: http://127.0.0.1:5000/auth/login
+[32mINFO    [0m ecommerce_test:logger.py:24 输入文本: wrong@example.com 到 input[name='email']
+[32mINFO    [0m ecommerce_test:logger.py:24 输入成功: input[name='email']
+[32mINFO    [0m ecommerce_test:logger.py:24 输入文本: wrongpass 到 input[name='password']
+[32mINFO    [0m ecommerce_test:logger.py:24 输入成功: input[name='password']
+[32mINFO    [0m ecommerce_test:logger.py:24 尝试点击: input[type='submit']
+[32mINFO    [0m ecommerce_test:logger.py:24 点击成功: input[type='submit']
+[32mINFO    [0m ecommerce_test:logger.py:24 等待元素出现: .flash
+[32mINFO    [0m ecommerce_test:logger.py:24 获取文本成功: .flash -> 
+                
+                    邮箱或密码错误
+[32mINFO    [0m ecommerce_test:logger.py:24 关闭浏览器...
+[32mINFO    [0m ecommerce_test:logger.py:24 ========== 测试用例执行结束: test_invalid_login ==========

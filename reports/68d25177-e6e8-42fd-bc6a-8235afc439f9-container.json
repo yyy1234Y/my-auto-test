@@ -1,0 +1,1 @@
+{"uuid": "17e189b1-e336-4097-b590-dc1239179ce5", "children": ["3c5db1d7-b91b-4bda-a9dc-0f5dda20b2d6"], "befores": [{"name": "clean_before_test", "status": "passed", "attachments": [{"name": "INFO", "source": "75806d99-680b-4650-9c30-348b1776308e-attachment.txt", "type": "text/plain"}], "start": 1776684842942, "stop": 1776684842943}], "start": 1776684842942, "stop": 1776684844983}

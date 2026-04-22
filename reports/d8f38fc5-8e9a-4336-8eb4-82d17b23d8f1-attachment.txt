@@ -1,0 +1,12 @@
+[32mINFO    [0m ecommerce_test:logger.py:24 执行测试前清理...
+[32mINFO    [0m ecommerce_test:logger.py:24 ========== 开始执行测试用例: test_search_product[\u6d4b\u8bd5\u5546\u54c12] ==========
+[32mINFO    [0m ecommerce_test:logger.py:24 启动浏览器...
+[32mINFO    [0m ecommerce_test:logger.py:24 浏览器已启动，页面已创建
+[32mINFO    [0m ecommerce_test:logger.py:24 导航至: http://127.0.0.1:5000/shop
+[32mINFO    [0m ecommerce_test:logger.py:24 输入文本: 测试商品2 到 input[name='search']
+[32mINFO    [0m ecommerce_test:logger.py:24 输入成功: input[name='search']
+[32mINFO    [0m ecommerce_test:logger.py:24 尝试点击: input[type='submit']
+[32mINFO    [0m ecommerce_test:logger.py:24 点击成功: input[type='submit']
+[32mINFO    [0m ecommerce_test:logger.py:24 等待元素出现: .product
+[32mINFO    [0m ecommerce_test:logger.py:24 关闭浏览器...
+[32mINFO    [0m ecommerce_test:logger.py:24 ========== 测试用例执行结束: test_search_product[\u6d4b\u8bd5\u5546\u54c12] ==========
